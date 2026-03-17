@@ -1,0 +1,5 @@
+# Ignorar el ejecutable por defecto que te crea C/C++ en Linux
+a.out
+
+# Ignorar cualquier ejecutable al que tú le pongas terminación .out
+*.out
