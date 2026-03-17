@@ -30,27 +30,18 @@ cout<< endl;
 }
 
 
-int Posicion(int*arr, int tam){
-    int inicio=0;
-    int fin = tam-1;
-    int pivote = arr[fin];
-    int i=inicio-1;
-    for (int j= inicio; j<fin; j++){
-        if (arr[j]<= pivote){
-            i++;
-            swap(arr[i],arr[j]);
-        }
-    }
-    swap(arr[i],arr[pivote]);
-    return(i);
+int Posicion(int*arr, int tam,int &inicio,int &final){
+
 }
 
 
 
 int main(){
 int Tamano;
-
+int inicio=0;
 Tamano=Verificaciones();
+int final=Tamano-1;
+
 
 int* Lista=new int[Tamano];
 Recibir (Lista,Tamano);
